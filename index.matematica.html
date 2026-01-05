@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Matemática</title>
+  <style>
+    /* ===== RESET BÁSICO ===== */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    /* ===== BODY ===== */
+    body {
+      font-family: "Segoe UI", "Arial", sans-serif;
+      background: linear-gradient(135deg, #0b0b0b, #161616);
+      color: #f0f0f0;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      max-width: 900px;
+      margin: 0 auto 40px;
+      padding: 25px 30px;
+      text-align: center;
+      background: rgba(20, 20, 40, 0.6);
+      border-radius: 14px;
+      backdrop-filter: blur(6px);
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header h4 { font-size: 1.1rem; color: #cccccc; }
+
+    /* ===== MAIN ===== */
+    main { max-width: 900px; margin: auto; }
+
+    /* ===== CAIXA DE EIXO ===== */
+    .eixo-box {
+      background: linear-gradient(135deg, #1a3a5a, #11223a);
+      padding: 20px;
+      margin: 30px 0 20px;
+      border-radius: 12px;
+      text-align: center;
+      color: #ffffff;
+      font-weight: bold;
+      font-size: 1.3rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    /* ===== SEÇÕES ===== */
+    .section-box {
+      background: rgba(20, 20, 40, 0.6);
+      border-radius: 12px;
+      padding: 20px 25px;
+      margin-bottom: 25px;
+    }
+
+    /* ===== TÍTULOS ===== */
+    h2 { font-size: 1.6rem; margin-bottom: 12px; border-left: 4px solid #5a9bd4; padding-left: 10px; }
+    h3 { font-size: 1.3rem; margin-bottom: 10px; color: #d0d0d0; }
+
+    /* ===== PARÁGRAFOS ===== */
+    p { margin-bottom: 12px; text-align: justify; }
+
+    /* ===== FORMULAS ===== */
+    .formula {
+      background: rgba(255,255,255,0.08);
+      border-left: 4px solid #5a9bd4;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-family: "Courier New", monospace;
+      margin: 12px 0;
+    }
+
+    /* ===== OBSERVAÇÕES ===== */
+    .attention {
+      background: rgba(255, 200, 0, 0.1);
+      border-left: 4px solid #ffc107;
+      padding: 12px 15px;
+      border-radius: 10px;
+      margin: 12px 0;
+      font-style: italic;
+    }
+
+    /* ===== LINKS ===== */
+    a { color: #5a9bd4; text-decoration: none; transition: 0.3s; }
+    a:hover { text-decoration: underline; }
+
+    /* ===== RESPONSIVO ===== */
+    @media (max-width: 768px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.4rem; }
+      h3 { font-size: 1.1rem; }
+    }
+    @media (max-width: 480px) {
+      header h1 { font-size: 1.5rem; }
+      h2 { font-size: 1.2rem; }
+      p, .formula, .attention { font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Guia de Matemática</h1>
+  <h4>Material aprofundado com exemplos, exercícios e observações</h4>
+</header>
+
+<main>
+
+  <!-- EIXO 1 -->
+  <div class="eixo-box">Fundamentos Matemáticos</div>
+
+  <section class="section-box">
+    <h2>Linguagem Matemática</h2>
+    <p>
+      A linguagem matemática é um sistema universal que utiliza números, letras e símbolos para representar
+      situações do cotidiano de forma objetiva. É essencial para garantir clareza e rigor lógico.
+    </p>
+    <div class="formula">
+      Exemplo: "O dobro de um número mais 4 é 10" → 2x + 4 = 10
+    </div>
+    <div class="attention">
+      Atenção: Interprete cada palavra do enunciado antes de construir a equação.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>O triplo de um número somado ao dobro de outro é 16 e o primeiro número menos o segundo é 2. Forme o sistema:<br>
+      3x + 2y = 16<br>x − y = 2 → Resolva: x = 6, y = 4</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Conjuntos Numéricos</h2>
+    <p>
+      Conjuntos numéricos organizam os números por propriedades e aplicações, formando uma hierarquia do mais simples ao mais complexo.
+    </p>
+    <div class="formula">
+      ℕ – Naturais: 0,1,2…<br>
+      ℤ – Inteiros: …,-2,-1,0,1,2…<br>
+      ℚ – Racionais: números em fração<br>
+      ℝ – Reais: inclui todos os anteriores e irracionais
+    </div>
+    <div class="attention">
+      Observação: Entender os conjuntos evita erros em operações envolvendo diferentes tipos de números.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Classifique os números: −5, 1/2, √2, 0<br>
+          −5 ∈ ℤ, 1/2 ∈ ℚ, √2 ∈ ℝ\ℚ, 0 ∈ ℕ e ℤ</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Expressões Numéricas</h2>
+    <p>
+      Expressões numéricas envolvem operações matemáticas básicas. Respeitar a ordem de operações é crucial.
+    </p>
+    <div class="formula">
+      Ordem: Parênteses → Potência/Radiciação → Multiplicação/Divisão → Adição/Subtração
+    </div>
+    <div class="attention">
+      Atenção: Erros comuns acontecem ao ignorar a prioridade das operações.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Calcule: 8 + 2 × (15 ÷ 3)² − 5 → 8 + 2 × 25 − 5 = 8 + 50 − 5 = 53</li>
+    </ol>
+  </section>
+
+  <!-- EIXO 2 -->
+  <div class="eixo-box">Álgebra e Equações</div>
+
+  <section class="section-box">
+    <h2>Expressões Algébricas</h2>
+    <p>
+      Letras representam incógnitas, permitindo generalizar cálculos. São fundamentais para álgebra, funções e sistemas.
+    </p>
+    <div class="formula">
+      Exemplo: 3x + 2y − 5
+    </div>
+    <div class="attention">
+      Observação: Substitua corretamente cada variável para resolver a expressão.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Se x = 2 e y = 3, calcule 3x + 2y − 5 → 3·2 + 2·3 −5 = 6 + 6 −5 = 7</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Equações do 1º Grau</h2>
+    <p>
+      Equações com incógnita elevada a 1. Resolver é encontrar valores que tornam a igualdade verdadeira.
+    </p>
+    <div class="formula">
+      Forma geral: ax + b = 0
+    </div>
+    <div class="attention">
+      Atenção: Sempre isole a variável antes de dividir pelo coeficiente.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Resolva: 5x − 3 = 2x + 9 → 5x − 2x = 9 + 3 → 3x = 12 → x = 4</li>
+    </ol>
+  </section>
+
+  <!-- EIXO 3 -->
+  <div class="eixo-box">Geometria e Estatística</div>
+
+  <section class="section-box">
+    <h2>Geometria</h2>
+    <p>
+      Estuda formas, medidas e relações espaciais. Essencial para perímetros, áreas, volumes e compreensão espacial.
+    </p>
+    <div class="formula">
+      Perímetro retângulo: P = 2·(b + h)<br>
+      Área retângulo: A = b × h<br>
+      Área triângulo: A = (b × h)/2
+    </div>
+    <div class="attention">
+      Observação: Sempre verifique unidades antes de calcular áreas e perímetros.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Triângulo com base 8 cm e altura 5 cm → A = (8×5)/2 = 20 cm²</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Estatística</h2>
+    <p>
+      Organiza, interpreta e apresenta dados de forma clara. Conceitos: média, mediana, moda e amplitude.
+    </p>
+    <div class="formula">
+      Média: M = (x₁ + x₂ + … + xn)/n<br>
+      Mediana: valor central<br>
+      Moda: valor mais frequente<br>
+      Amplitude: diferença entre maior e menor valor
+    </div>
+    <div class="attention">
+      Atenção: Valores extremos influenciam a média, use mediana para representar dados centrais.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Dados: 2,4,4,5,7,8,10 → M = 5.71, Mediana = 5, Moda = 4, Amplitude = 10 − 2 = 8</li>
+    </ol>
+  </section>
+
+  <!-- EIXO 4 -->
+  <div class="eixo-box">Matemática Financeira</div>
+
+  <section class="section-box">
+    <h2>Juros Simples e Compostos</h2>
+    <p>
+      Aplicação matemática em finanças para calcular crescimento de capital, descontos e investimentos.
+    </p>
+    <div class="formula">
+      Juros simples: J = C·i·t<br>
+      Juros compostos: M = C·(1+i)ᵗ
+    </div>
+    <div class="attention">
+      Observação: Confirme se taxa e tempo estão na mesma unidade.
+    </div>
+    <p><strong>Exercício resolvido complexo:</strong></p>
+    <ol>
+      <li>Capital R$2000, i=3% ao mês, t=6 meses<br>
+      Juros simples: J = 2000·0.03·6 = 360<br>
+      Juros compostos: M = 2000·(1+0.03)⁶ ≈ 2385,57</li>
+    </ol>
+  </section>
+
+  <!-- EIXO 5 -->
+  <div class="eixo-box">Teoremas</div>
+
+  <section class="section-box">
+    <h2>Teorema de Pitágoras</h2>
+    <p>
+      Em um triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.
+    </p>
+    <div class="formula">
+      a² + b² = c²
+    </div>
+    <div class="attention">
+      Observação: Use para calcular lados de triângulos retângulos quando dois valores são conhecidos.
+    </div>
+    <p><strong>Exercício resolvido:</strong></p>
+    <ol>
+      <li>Catetos: 3 cm e 4 cm → c² = 3² + 4² = 9 + 16 = 25 → c = 5 cm</li>
+    </ol>
+  </section>
+
+  <section class="section-box">
+    <h2>Teorema de Tales</h2>
+    <p>
+      Retas paralelas cortadas por transversais formam segmentos proporcionais.
+    </p>
+    <div class="formula">
+      a/b = c/d
+    </div>
+    <div class="attention">
+      Observação: Use para calcular segmentos desconhecidos em figuras proporcionais.
+    </div>
+    <p><strong>Exercício resolvido:</strong></p>
+    <ol>
+      <li>Segmentos: AB/AC = DE/DF → Se AB = 4, AC = 6, DE = 2 → DF = ? → DF = 3</li>
+    </ol>
+  </section>
+
+</main>
+</body>
+</html>
